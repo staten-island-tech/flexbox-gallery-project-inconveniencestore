@@ -10,13 +10,20 @@ html,
 /* inspect element -> layout to play with settings */
 
 .card {
-    width: 30%;
     /*(1 rem = 30 pixels)*/
+    /*30% for percent*/
+    margin: 5%;
     height: 35rem;
     border: 2px solid black;
-    border-radius: 20px;
+    border-radius: 5%;
+
+    flex-grow: 1;
+    width: 350px;
+    max-width: 800px;
+
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
     /*     background-image: url(R.jfif);
