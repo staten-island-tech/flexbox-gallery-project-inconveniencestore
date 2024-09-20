@@ -11,11 +11,11 @@ html,
 }
 
 body {
-    background-color: rgb(255, 235, 153);
+    background: linear-gradient(rgb(255, 235, 153), rgb(255, 207, 86)95%);
 }
 
 h1 {
-    margin-top: 20px;
+    margin: 20px 20px 0px;
     font-size: 50px;
     text-align: center;
     font-family: "Concert One", sans-serif;
@@ -32,10 +32,10 @@ h1 {
 .card {
     width: 400px;
     max-width: 550px;
-    /*(1 rem = 30 pixels)*/
     height: 50rem;
     margin: 2%;
     background-color: beige;
+    filter: opacity(80%);
 
     border: 2px solid rgb(255, 190, 13);
     border-radius: 20px;
@@ -45,6 +45,7 @@ h1 {
     flex-flow: column wrap;
     justify-content: space-around;
     flex-grow: 1;
+
     /*     background-image: url(R.jfif);
     background-size: cover; */
     /*evenly distributes*/
@@ -133,7 +134,7 @@ h1 {
     }
 
     .card {
-        width: 45%;
+        width: 50%;
     }
 
 }
