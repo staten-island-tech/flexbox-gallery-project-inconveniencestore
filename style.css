@@ -30,8 +30,8 @@ h1 {
 }
 
 .card {
-    width: 400px;
-    max-width: 550px;
+    width: 30rem;
+    max-width: 40rem;
     height: 50rem;
     margin: 2%;
     background-color: beige;
@@ -86,6 +86,28 @@ h1 {
     text-align: center;
 }
 
+.animation {
+    width: 20rem;
+    height: 20rem;
+    position: absolute;
+    animation: demo 5s infinite;
+}
+
+/* @keyframes demo {
+    0% {
+        left: 50%;
+        bottom: 10%;
+        background-color: red;
+    }
+
+    25% {
+        left: 50%;
+        bottom: 10%;
+        transform: scale(2);
+        background-color: blueviolet;
+    }
+} */
+
 #mango:hover,
 #koi3:hover {
     transform: scale(1.1) translate(0);
@@ -128,6 +150,7 @@ h1 {
 
 @media screen and (max-width: 1100px) {
 
+    /* or less */
     .container {
         flex-direction: row;
         align-items: center;
@@ -138,6 +161,7 @@ h1 {
     }
 
 }
+
 
 @media screen and (max-width: 800px) {
 
