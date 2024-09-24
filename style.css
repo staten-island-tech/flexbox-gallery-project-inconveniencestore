@@ -11,7 +11,7 @@ html,
 }
 
 body {
-    background: linear-gradient(rgb(255, 235, 153), rgb(255, 207, 86)95%);
+    background: linear-gradient(rgb(255, 235, 153), rgb(255, 207, 86) 95%);
 }
 
 h1 {
@@ -35,7 +35,6 @@ h1 {
     height: 50rem;
     margin: 2%;
     background-color: beige;
-    filter: opacity(80%);
 
     border: 2px solid rgb(255, 190, 13);
     border-radius: 20px;
@@ -46,10 +45,6 @@ h1 {
     justify-content: space-around;
     flex-grow: 1;
 
-    /*     background-image: url(R.jfif);
-    background-size: cover; */
-    /*evenly distributes*/
-
     filter: drop-shadow(-15px 15px 0px rgba(255, 143, 6, 0.346));
     transition: all 0.5s;
 }
@@ -58,9 +53,9 @@ h1 {
     display: flex;
     width: 80vw;
     margin: 0 auto;
+    /*flex direction, flex wrap*/
     flex-flow: row wrap;
     align-items: center;
-    /*flex direction, flex wrap*/
     justify-content: space-around;
 }
 
@@ -93,25 +88,9 @@ h1 {
     animation: demo 5s infinite;
 }
 
-/* @keyframes demo {
-    0% {
-        left: 50%;
-        bottom: 10%;
-        background-color: red;
-    }
-
-    25% {
-        left: 50%;
-        bottom: 10%;
-        transform: scale(2);
-        background-color: blueviolet;
-    }
-} */
-
 #mango:hover,
 #koi3:hover {
     transform: scale(1.1) translate(0);
-    /* has to all be on one line */
     background-color: rgb(248, 248, 234);
     filter: drop-shadow(0 0 10px rgba(255, 143, 6, 0.473));
 }
@@ -132,6 +111,7 @@ h1 {
 #koi:hover,
 #forgot2:hover {
     transform: rotatey(360deg) scale(1.1);
+    /* chat gpt tells me rotatey is WRONG but i want it to flip on the y axis */
     filter: drop-shadow(-15px 0px 20px rgba(255, 143, 6, 0.346));
 }
 
@@ -150,7 +130,6 @@ h1 {
 
 @media screen and (max-width: 1100px) {
 
-    /* or less */
     .container {
         flex-direction: row;
         align-items: center;
