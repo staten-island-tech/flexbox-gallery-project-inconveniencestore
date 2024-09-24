@@ -15,8 +15,8 @@ body {
 }
 
 h1 {
-    margin: 20px 20px 0px;
-    font-size: 50px;
+    margin: 1.5rem 1.5rem 0px;
+    font-size: 5rem;
     text-align: center;
     font-family: "Concert One", sans-serif;
     color: rgb(99, 43, 0);
@@ -24,9 +24,9 @@ h1 {
 
 .caption {
     text-align: center;
-    font-size: 15px;
+    font-size: 1.5rem;
     color: rgb(174, 103, 11);
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 }
 
 .card {
@@ -37,7 +37,7 @@ h1 {
     background-color: beige;
 
     border: 2px solid rgb(255, 190, 13);
-    border-radius: 20px;
+    border-radius: 2rem;
 
     display: flex;
     align-items: center;
@@ -60,11 +60,11 @@ h1 {
 }
 
 .card-img {
-    padding: 20px;
+    padding: 2rem;
     width: 90%;
     height: 70%;
     object-fit: cover;
-    border-radius: 30px;
+    border-radius: 3rem;
 }
 
 .card-header {
